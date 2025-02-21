@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* Additional styles for the profile section */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .header-content {
+            flex: 1;
+        }
+        
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .profile-buttons a {
+            display: inline-block;
+            padding: 8px 15px;
+            margin-left: 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .login-btn {
+            color: #2a70e0;
+            border: 1px solid #2a70e0;
+            background-color: white;
+        }
+        
+        .signup-btn {
+            color: white;
+            background-color: #2a70e0;
+            border: 1px solid #2a70e0;
+        }
+        
+        /* Fix for the navbar to ensure it's properly formatted */
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <h1>Healthcare Solutions</h1>
+                <p>Your trusted partner in health and wellness</p>
+            </div>
+            <div class="profile-section">
+                <div class="profile-buttons">
+                    <a href="#login" class="login-btn">Log In</a>
+                    <a href="#signup" class="signup-btn">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#News">News</a></li>
+            <li><a href="index2.html" class="button">
+diet</a></li>
+            <li><a href="#bookappointment">Book appointment</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Compassionate Care for a Healthier You</h2>
+        <p>We provide personalized healthcare services to meet your unique needs.</p>
+        <a href="#services" class="cta-button">Learn More</a>
+    </section>
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Diet plan</h3><li><a href="index2.html" class="button">
+diet</a></li>
+                <p>Comprehensive care for all ages.</p>
+            </div>
+            <div class="service-card">
+                <h3>Specialty Care</h3> 
+                <p>Expert care for complex conditions.</p>
+            </div>
+            <div class="service-card">
+                <h3>Telemedicine</h3>
+                <p>Virtual care from the comfort of your home.<br>
+<button class="blue-button"onclick="window.location.href='index1.html'">click here</button></p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to improving the health and well-being of our community through compassionate care and innovative solutions.</p>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Healthcare Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
